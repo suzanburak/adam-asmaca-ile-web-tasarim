@@ -1,0 +1,70 @@
+*{
+    
+
+
+
+
+
+
+
+    box-sizing: border-box;
+}
+ 
+
+:root{
+    --yazi-renk:black;
+    --bg-renk:#ff6b81;
+    --bg-aktif-renk:#ff4757;
+}
+ 
+h1,
+h2,
+p,
+ul,
+li,
+body{
+    margin:0;
+    padding:0;
+}
+ 
+body{
+background-image:url(../images/arkaplan.jpg);
+font-family: 'Montserrat', sans-serif;
+ background-image:url(../images/arkaplan.jpg);
+background-size: cover;
+}
+.ekran{
+    width: 960px;
+    margin:10px auto;
+    background: var(--yazi-renk);
+    border:3px solid var(--bg-renk);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color:#566573;
+}
+#resim img{
+    width: 50%;
+    vertical-align: middle;
+}
+body{
+background-image:url(../images/arkaplan.jpg);
+}
+
+
+main p{
+    margin:5px 0;
+}
+
+footer{
+    background:var(--bg-renk);
+    padding:15px;
+    text-align: center;
+    color:var(--yazi-renk);
+}
+ 
+.yatay-cizgi{
+    border-bottom:1px solid #a4b0be;
+    margin:10px 0;
+}
+ 
+ 
